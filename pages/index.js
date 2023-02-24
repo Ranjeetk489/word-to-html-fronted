@@ -31,7 +31,7 @@ export default function Home() {
 						`${process.env.NEXT_PUBLIC_BACKEND_URL}/getDocument`,
 						{
 							accessToken,
-							documentId: "1MNXS2rkuOMX_mN2iAbaw6PEzPvuYgeITcSyNMbaInkM",
+							documentId: "1BIHoONqtXJHi26N4X6jgoaUMMGeUXbMqtJVT18RzhVo",
 						},
 					);
 					const { htmlDoc } = res.data;
